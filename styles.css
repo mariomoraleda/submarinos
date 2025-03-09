@@ -1,59 +1,54 @@
-
-/*Colocamos una imagen de fondo al 'body' de nuestras páginas*/
-
 body {
-
-  background-image: url("../figuras/fondo.png");
-  background-repeat: repeat-y; 
-     
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-/*Creamos la clase 'center' de forma que podamos centrar, por ejemplo, las tablas de nuestras páginas*/
-
-.center{
-
-	margin-left: auto;
-	margin-right: auto;
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-/*Le damos formato a los encabezados H*, párrafos y viñetas */
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
 h1 {
-  font-weight: bold;
-  text-align: center;  
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #000;
-  
+    font-size: 2em;
+    margin: 0;
 }
 
-h2 {
-
-  font-weight: bold;
-  text-align: left;  
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: Tomato	;
-
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-p, ul {
-
-  font-family: Verdana, Helvetica, sans-serif;
-  color: #000;
-  font-size: 24px; 
-
-}
-
-
-/*Le damos formato a los pies de imagen*/
-figcaption {text-align: center;}
-
-
-/*Le damos formato a las imágenes*/
 img {
-  
-  display: block;
-  width: 50px;
-  height: 25px;
-  width: 100%;
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
 
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
 }
